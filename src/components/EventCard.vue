@@ -6,8 +6,7 @@
     <div class="event-card -shadow">
       <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
       <h4 class="title">{{ event.title }}</h4>
-      <BaseIcon name="users" />
-      <span>{{ event.attendees.length }} attending</span>
+      <BaseIcon name="users"> {{ event.attendees.length }} attending </BaseIcon>
     </div>
   </router-link>
 </template>
@@ -18,7 +17,7 @@ export default {
     return {
       event: {
         id: 1,
-        title: "Park Cleanup !++.!",
+        title: "Park Cleanup",
         date: "Tues Dec 1, 2020",
         time: "4:00",
         attendees: [
