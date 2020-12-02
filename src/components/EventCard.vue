@@ -18,7 +18,7 @@ export default {
     return {
       event: {
         id: 1,
-        title: "Park Cleanup !+",
+        title: "Park Cleanup !+!",
         date: "Tues Dec 1, 2020",
         time: "4:00",
         attendees: [
