@@ -9,19 +9,21 @@
 
 <script>
 export default {
-  name: "Icon",
+  name: 'Icon',
   props: {
-    name: String,
+    name: {
+      type: String
+    },
     width: {
       type: [Number, String],
-      default: 24,
+      default: 24
     },
     height: {
       type: [Number, String],
-      default: 24,
-    },
-  },
-};
+      default: 24
+    }
+  }
+}
 </script>
 
 <style scoped>
